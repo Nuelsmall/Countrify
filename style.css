@@ -127,7 +127,7 @@ i{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
   grid-gap: 10px;
-  cursor: pointer;
+/*   cursor: pointer; */
 }
 
 .country{
@@ -137,11 +137,11 @@ i{
   border-radius: 5px;
   overflow: hidden;
   background:var(--countrybgColor);
-  cursor: pointer;
   }
 
 .country-img{
   height: 250px;
+  cursor: pointer;
 }
 
 .country-img img{
