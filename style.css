@@ -137,6 +137,7 @@ i{
   border-radius: 5px;
   overflow: hidden;
   background:var(--countrybgColor);
+  cursor: pointer;
   }
 
 .country-img{
